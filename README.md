@@ -5,25 +5,24 @@ This React app is built using vite. The employee data is fetched from an externa
 
 ## Project setup
 
-```js
-git clone 
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
+Clone the repo
 
 ```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+git clone https://github.com/LalitKumar234/alippo-assignment.git
+```
+cd to alippo-assignment directory
+
+```js
+npm install
+```
+
+Start the server
+
+```js
+npm run dev
+```
+
+
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
